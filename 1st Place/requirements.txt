@@ -1,0 +1,16 @@
+imbalanced_learn==0.10.1
+imblearn==0.0
+ipython==8.12.0
+jupyter
+matplotlib==3.7.1
+miceforest==5.6.3
+numpy==1.24.3
+openai==0.28.0
+openpyxl
+pandas==1.5.3
+plotnine==0.12.3
+Requests==2.31.0
+scikit_learn==1.2.2
+seaborn==0.13.0
+sentence_transformers==2.2.2
+statsmodels==0.14.0
