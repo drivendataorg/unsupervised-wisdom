@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+
+# Pycharm
+.idea
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+.nbautoexport
+
+# exclude data from source control by default
+/data/
+
