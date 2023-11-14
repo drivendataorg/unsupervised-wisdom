@@ -1,4 +1,4 @@
-## README
+## Configuration for running the notebook:
 
 1. Create and activate a conda environment
 ```
