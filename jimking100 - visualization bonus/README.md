@@ -1,4 +1,4 @@
-## Configuration for Jim King's Notebook:
+## README
 
 1. Create and activate a conda environment
 ```
