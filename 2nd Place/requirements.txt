@@ -1,0 +1,15 @@
+gensim==4.3.1
+matplotlib==3.7.2
+nltk==3.8.1
+numpy==1.25.2
+optuna==3.3.0
+pandas==2.0.3
+pyenchant==3.2.2
+pyLDAvis==3.4.1
+seaborn==0.13.0
+spacy==3.6.1
+torch==2.0.1
+tqdm==4.66.0
+transformers==4.31.0
+sentencepiece==0.1.99
+accelerate==0.22.0
