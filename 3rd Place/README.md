@@ -21,17 +21,11 @@ embedding_path = 'path to \ openai_embeddings_primary_narratives.parquet.gzip'
 openai_key_uk =   'your openai key'
 ```
 
-This is the data structure used by default in the notebook. Interim files are provided for convenience but can be regenerated with a valid OpenAI key.
+This is the data structure used by default in the notebook.
 
 ```
 data
 ├── interim
-│   ├── embeddings_slip_trip.pkl
-│   ├── g_embeddings_dizzy.pkl
-│   ├── g_embeddings_exercise.pkl
-│   ├── g_embeddings_hit.pkl
-│   ├── g_embeddings_product.pkl
-│   ├── g_embeddings_walker_stairs.pkl
 │   ├── openai_precipitating.json
 │   └── response
 │       └── response_0.json
