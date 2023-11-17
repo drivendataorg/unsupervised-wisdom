@@ -1,0 +1,68 @@
+{
+    "action": {
+        "use_bigram": true,
+        "bigram_min_count": 1,
+        "bigram_threshold": 1,
+        "use_trigram": false,
+        "trigram_min_count": 100,
+        "trigram_threshold": 70,
+        "num_topics": 10,
+        "chunksize": 1500,
+        "passes": 10
+    },
+    "cause": {
+        "use_bigram": true,
+        "bigram_min_count": 10,
+        "bigram_threshold": 7,
+        "use_trigram": true,
+        "trigram_min_count": 70,
+        "trigram_threshold": 100,
+        "num_topics": 10,
+        "chunksize": 2000,
+        "passes": 10
+    },
+    "diagnosis": {
+        "use_bigram": true,
+        "bigram_min_count": 1,
+        "bigram_threshold": 1,
+        "use_trigram": false,
+        "trigram_min_count": 70,
+        "trigram_threshold": 70,
+        "num_topics": 30,
+        "chunksize": 500,
+        "passes": 4
+    },
+    "how": {
+        "use_bigram": true,
+        "bigram_min_count": 1,
+        "bigram_threshold": 4,
+        "use_trigram": false,
+        "trigram_min_count": 40,
+        "trigram_threshold": 70,
+        "num_topics": 30,
+        "chunksize": 1000,
+        "passes": 10
+    },
+    "what": {
+        "use_bigram": true,
+        "bigram_min_count": 10,
+        "bigram_threshold": 10,
+        "use_trigram": true,
+        "trigram_min_count": 40,
+        "trigram_threshold": 100,
+        "num_topics": 30,
+        "chunksize": 2000,
+        "passes": 10
+    },
+    "where": {
+        "use_bigram": true,
+        "bigram_min_count": 4,
+        "bigram_threshold": 1,
+        "use_trigram": true,
+        "trigram_min_count": 40,
+        "trigram_threshold": 100,
+        "num_topics": 10,
+        "chunksize": 1500,
+        "passes": 10
+    }
+}
