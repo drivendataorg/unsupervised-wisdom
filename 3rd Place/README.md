@@ -17,10 +17,12 @@ Interactive Graph image snapshots were saved and loaded. To render them the note
 
 To run the notebook ensure the following file paths and your openai key are specified. i.e
 
+```
 primary_path =  'path to primary_data.csv'
 variable_mapping = 'path to variable_mapping.json'
 embedding_path = 'path to \ openai_embeddings_primary_narratives.parquet.gzip'
 openai_key_uk =   'your openai key'
+```
 
 This is the data structure used by default in the notebook. Interim files are provided for convenience but can be regenerated with a valid OpenAI key.
 
