@@ -12,7 +12,7 @@ My submission, titled "Large Language Models and Topic Modelling for Textual Inf
 - `reports/Executive Summary.pdf`: an executive summary explaining my analysis and demonstrating how it can be applied.
 - `data`: directory containing all of the data used.
     - `official`: directory containing data provided by the competition hosts.
-    - `intermediate`: directory containing intermediate data generated with `main.ipynb`.
+    - `intermediate`: directory containing intermediate data generated with `notebooks/submission.ipynb`.
 
 ```
 data
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-MacOS with Apple Silicon (note that after the `export` command you need to quit and reopen your terminal):
+MacOS with Apple Silicon:
 ```
 brew install enchant
 export PYENCHANT_LIBRARY_PATH=/opt/homebrew/lib/libenchant-2.2.dylib
