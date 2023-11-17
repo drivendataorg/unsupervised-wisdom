@@ -14,6 +14,18 @@ My submission, titled "Large Language Models and Topic Modelling for Textual Inf
     - `official`: directory containing data provided by the competition hosts.
     - `intermediate`: directory containing intermediate data generated with `main.ipynb`.
 
+```
+data
+├── intermediate
+│   ├── lda_dataframes
+│   ├── lda_params.json
+│   └── questions_primary.csv
+└── official
+    ├── primary_data.csv
+    ├── supplementary_data.csv
+    └── variable_mapping.json
+```
+
 ### Instructions for running the code
 
 I use the `pyenchant` library, which requires you to install the enchant C library. To run the code you first need to `git clone` this repository. After going inside the repository you can do the following:
@@ -22,6 +34,7 @@ Linux:
 ```
 apt-get install python3-enchant
 pip install -r requirements.txt
+python -m spacy download en_core_web_sm
 ```
 
 MacOS with Apple Silicon (note that after the `export` command you need to quit and reopen your terminal):
@@ -29,4 +42,5 @@ MacOS with Apple Silicon (note that after the `export` command you need to quit 
 brew install enchant
 export PYENCHANT_LIBRARY_PATH=/opt/homebrew/lib/libenchant-2.2.dylib
 pip install -r requirements.txt
+python -m spacy download en_core_web_sm
 ```
