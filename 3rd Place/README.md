@@ -6,7 +6,7 @@ Tested on a clean conda environment with python3.9 and faiss (installed from con
 2. conda activate fall
 3. pip install -r requirements.txt
 ##### Ubuntu
-4. conda install -c pytorch faiss-cpu
+4. conda install -c pytorch faiss-cpu=1.7.4 mkl=2021 blas=1.0=mkl
 ##### windows  
 4. conda install -c conda-forge faiss 
    #(using the other conda channel in Windows causes missing dlls)
@@ -45,6 +45,4 @@ data
 Notes:
 - `data/interim/response` : directory for storing Opeanai chatGpt3.5 responses
 - `data/interim/openai_precipitating.json` : All Opeanai chatGpt3.5 responses assembled in a single json file.
-
-##### Directory:
-assets : contains saved graph images
+- `notebooks/images` : contains saved graph images
