@@ -2,14 +2,13 @@
 Tested on a clean conda environment with python3.9 and faiss (installed from conda)
 
 ### Install
-1. conda create --name fall python=3.9
-2. conda activate fall
-3. pip install -r requirements.txt
+1. `conda create --name fall python=3.9`
+2. `conda activate fall`
+3. `pip install -r requirements.txt`
 ##### Ubuntu
-4. conda install -c pytorch faiss-cpu=1.7.4 mkl=2021 blas=1.0=mkl
+4. `conda install -c pytorch faiss-cpu=1.7.4 mkl=2021 blas=1.0=mkl`
 ##### windows  
-4. conda install -c conda-forge faiss 
-   #(using the other conda channel in Windows causes missing dlls)
+4. `conda install -c conda-forge faiss` (using the other conda channel in Windows causes missing dlls)
 
 Interactive Graph image snapshots were saved and loaded. To render them the notebook needs to be run 
 
