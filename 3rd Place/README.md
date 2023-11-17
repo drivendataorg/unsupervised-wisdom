@@ -10,8 +10,6 @@ Tested on a clean conda environment with python3.9 and faiss (installed from con
 ##### windows  
 4. `conda install -c conda-forge faiss` (using the other conda channel in Windows causes missing dlls)
 
-Interactive Graph image snapshots were saved and loaded. To render them the notebook needs to be run 
-
 ### Specify data paths and OpenAI Key
 
 To run the notebook ensure the following file paths and your openai key are specified. i.e
@@ -44,6 +42,6 @@ data
 ```
 
 Notes:
-- `data/interim/response` : directory for storing Opeanai chatGpt3.5 responses
-- `data/interim/openai_precipitating.json` : All Opeanai chatGpt3.5 responses assembled in a single json file.
-- `notebooks/images` : contains saved graph images
+- `data/interim/response`: directory for storing Opeanai chatGpt3.5 responses
+- `data/interim/openai_precipitating.json`: All Opeanai chatGpt3.5 responses assembled in a single json file.
+- `notebooks/images`: contains saved graph images (interactive Graph image snapshots were saved and loaded; to render them the notebook needs to be run)
