@@ -21,8 +21,10 @@ Then in the second step, a DistilBERT model was fine-tuned using the golden data
 ## Code Execution <a name="code_execution"></a>
 This section explains the steps required to execute the code cells given in the repository. **Primary_data_mapped_cleaned.csv** was used as the input for the step 1. _An OpenAI API key would be required to get inference from GPT3.5-Turbo model (OpenAI). A free version of Google Colab notebook would be sufficient to run the rest of the code files_.
 
-* Install the packages listed in the requirements.txt file.
-*  **Step 1** : The narratives present in the file `data/medical_terms_mapping.json` were processed through a pre-processing pipeline. The results for this pipeline were stored in the file `data\cleaned_narrative_primary_data.csv`.
+
+* Install the packages listed in the requirements.txt file (`pip install -r requirements.txt`)
+* Install required spacy models with `python -m spacy download en_core_web_sm`
+*  **Step 1** : The narratives present in the file `data/medical_terms_mapping.json` were processed through a pre-processing pipeline. The results for this pipeline were stored in the file `data/cleaned_narrative_primary_data.csv`.
 * **Step 2**: OpenAI embeddings were loaded and PCA was used for dimensionality reduction which chunked the high-dimensional data (1536) to a relatively lower dimensional data (200). This was followed by a clustering approach using K-Means to generate the sample data. In the clustering approach, 10,000 clusters were formed and the centroid from each cluster was choosen to form our sample data. This data was the reresentative sample of the primary data which was passed through LLMs to extract the hidden details. The data can be found at `data/sample_data_10k.csv`.
 * **Step 3**: `LlaMA2` and `OpenAI’s GPT-3.5` were employed for zero-shot classification to extract important information such as the severity of fall, action performed just before fall, and risk factors associated/reason for the fall from the ED visit narrative texts. The respective results for each attribute are available at `data/severity_data_10k.csv`, `data/reason_of_fall_data_10k.csv`, `data/action_before_fall_data_10k.csv` hereby referred to as the golden data.
 * **Step 4**: A DistilBERT model was fine-tuned using the golden dataset to classify severity, action before fall, and reason for fall. This fine-tuned model was then applied to predict classification labels for the complete primary dataset thereby enabling us to generate insights. Model checkpoints can be found at mentioned paths - 
@@ -35,15 +37,15 @@ After getting predictions from the fine-tuned DistilBert model, the final output
 ## Flow Diagram <a name="flow"></a>
 **Representative Data Creation using Cluster Segmentation**: The main idea behind generating clusters was to maximize the diversity between the falls incident data such that the sample data is representative of the primary data. The data was partitioned in 10,000 clusters which is equal to the sample size of the representative dataset. In order to increase the diversity, the data point closest to the centroid of each cluster was chosen and added to the sample dataset hence making the sample data as diverse as possible.
 
-![Cluster Segmentation](data/images/representative_data_creation.png)
+![Cluster Segmentation](notebooks/images/representative_data_creation.png)
 
 **Creation of Gold Standard Data using representative data**: Various Large language models (LLMs) were employed to generate gold standard data (training data) for fine-tuning the classification model
 
-![Gold Standard Data Creation](data/images/golden_data_creation.png)
+![Gold Standard Data Creation](notebooks/images/golden_data_creation.png)
 
 **Predictions of Severity, Reason of fall & Action before fall on the Complete Dataset**: The gold data created above was used to fine-tune a DistilBERT model (for classification), which was then used to generate predictions on the complete primary data.
 
-![Inference using DistilBert](data/images/output_on_whole_data.png)
+![Inference using DistilBert](notebooks/images/output_on_whole_data.png)
 
 ## System Specifications <a name="machine_specs"></a>
 The machine specifications and time used to run the model -
@@ -53,9 +55,3 @@ The machine specifications and time used to run the model -
 * OS: Windows and Linux
 * Train duration: ~4.5 hours
 * Inference duration: ~25 hours (inference from LLMs for different attributes, Eg: severity, reason of fall, etc)
-
-
-
-
-
-
