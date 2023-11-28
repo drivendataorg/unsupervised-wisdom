@@ -25,10 +25,10 @@ pip install -r requirements.txt
 
 Run the notebook.
 ```bash 
-jupyter lab
+jupyter lab notebooks
 ```
 
-Set your OpenAI API Key in `main.ipynb`
+Set your OpenAI API Key in `notebooks/main.ipynb`
 ```python
 import os
 os.environ["OPENAI_API_KEY"] = "<API Key>"
@@ -37,7 +37,8 @@ os.environ["OPENAI_API_KEY"] = "<API Key>"
 ## Directory structure
 ```bash
 ├── README.md
-├── main.ipynb
+├── notebooks
+│   └── main.ipynb
 ├── dataset
 │   ├── primary_data.csv
 │   └── variable_mapping.json
