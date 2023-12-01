@@ -1,0 +1,12 @@
+jupyter
+ipython
+tqdm
+torch
+# tensorflow
+pandas
+optuna
+umap-learn
+lifelines
+scikit-survival
+plotly
+polars
