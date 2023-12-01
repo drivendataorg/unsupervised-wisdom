@@ -1,12 +1,17 @@
-jupyter
+imblearn
 ipython
-tqdm
-torch
-# tensorflow
-pandas
-optuna
-umap-learn
+jupyter
 lifelines
-scikit-survival
+openpyxl
+optuna
+pandas
 plotly
 polars
+pyarrow
+scikit-survival
+seaborn
+tensorflow
+torch
+tqdm
+umap-learn
+xgboost
