@@ -5,7 +5,7 @@ Tested on PC using a renv restored environment using R version 4.3.1. See Sessio
 1. Install quarto https://quarto.org/docs/download/
 2. Download raw data and place in "data/raw" (see below)
 2. Navigate to the project's root directory ("4th Place")
-3. `quarto render "notebooks/unsupervised-wisdom-from-medical-narrative-report.qmd"
+3. `quarto render "notebooks/unsupervised-wisdom-from-medical-narrative-report.qmd"`
 4. Notebook should render in "reports"
 
 ### Required data
