@@ -35,7 +35,7 @@ Most compelling insight | [artvolgin](https://github.com/drivendataorg/unsupervi
 Best visualization | [jimking100](https://github.com/drivendataorg/unsupervised-wisdom/blob/main/Bonus%3A%20Best%20visualization/notebooks/final_submission_notebook%20-%20JImKing100.ipynb)
 Best null result | [Research4Good](https://github.com/drivendataorg/unsupervised-wisdom/blob/main/Bonus%3A%20Best%20null%20result/reports/Executive_Summary.pdf)
 Most helpful shared code | [zysymu](https://www.drivendata.org/competitions/217/cdc-fall-narratives/community-code/13/)
-Most promising mid-point submissions | RyoyaKatafuchi, artvolgin, and saket
+Most promising mid-point submissions | [RyoyaKatafuchi](https://github.com/drivendataorg/unsupervised-wisdom/blob/main/Bonus%3A%20Most%20promising%20midpoint%20submission/reports/Midpoint-Executive-Summary.pdf), [artvolgin](https://github.com/drivendataorg/unsupervised-wisdom/blob/main/1st%20Place/reports/Midpoint_Executive_Summary.pdf), and [saket](https://github.com/drivendataorg/unsupervised-wisdom/blob/main/3rd%20Place/reports/Midpoint_Executive_Summary.pdf)
 
 Additional solution details can be found in the `reports` folder inside the directory for each submission.
 
