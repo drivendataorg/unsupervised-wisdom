@@ -1,13 +1,13 @@
 [<img src='https://s3.amazonaws.com/drivendata-public-assets/logo-white-blue.png' width='600'>](https://www.drivendata.org/)
 <br><br>
 
-[![Banner Image](https://s3.amazonaws.com/drivendata-public-assets/cdc-medical-record.jpg)](<https://www.drivendata.org/competitions/217/cdc-fall-narratives/>)
+<img src='https://s3.amazonaws.com/drivendata-public-assets/cdc-medical-record.jpg' width='600' alt="Blue folder of medical records with orange stethoscope laid on top">
 
 # <Unsupervised Wisdom: Explore Medical Narratives on Older Adult Falls>
 
 ## Goal of the Competition
 
-Falls among adults 65 and older are the leading cause of injury-related deaths. Medical record narratives are a rich yet under-explored source of potential insights about how, when, and why people fall. Modern machine learning approaches to working with narrative data have the potential to effectively extract insights about older adult falls from narrative medical record data at scale.
+Falls among adults 65 and older are the leading cause of injury-related deaths. Medical record narratives are a rich yet under-explored source of potential insights about how, when, and why people fall. However, narrative data sources can be difficult to work with, often requiring carefully designed, time-intensive manual coding procedures.
 
 **The goal in this challenge was to identify effective methods of using unsupervised machine learning to extract insights about older adult falls from emergency department narratives.** Insights extracted from medical record narratives can potentially inform interventions for reducing falls.
 
@@ -28,14 +28,14 @@ Place | Team or User | Summary of Approach
 
 ## Bonus Prizes
 
-Place | Team or User | Summary of Approach
---- | ---   | ---
-Most novel approach | SeaHawk | <Description from the 1st place's writeup>
-Most compelling insight | artvolgin | <Description from the 2nd place's writeup>
-Best visualization | jimking100 | <Description from the 2nd place's writeup>
-Best null result | Research4Good | <Description from the 2nd place's writeup>
-Most helpful shared code | zysymu | <Description from the 2nd place's writeup>
-Most promising mid-point submissions | RyoyaKatafuchi, artvolgin, and saket | <Description from the 2nd place's writeup>
+Prize | Team or User
+--- | ---
+Most novel approach | [SeaHawk](https://github.com/drivendataorg/unsupervised-wisdom/blob/main/Bonus%3A%20Most%20novel%20approach/notebooks/Final%20Submission%20-%20Seahawk.ipynb)
+Most compelling insight | [artvolgin](https://github.com/drivendataorg/unsupervised-wisdom/blob/main/1st%20Place/reports/Executive-Summary.pdf)
+Best visualization | [jimking100](https://github.com/drivendataorg/unsupervised-wisdom/blob/main/Bonus%3A%20Best%20visualization/notebooks/final_submission_notebook%20-%20JImKing100.ipynb)
+Best null result | [Research4Good](https://github.com/drivendataorg/unsupervised-wisdom/blob/main/Bonus%3A%20Best%20null%20result/reports/Executive_Summary.pdf)
+Most helpful shared code | [zysymu](https://www.drivendata.org/competitions/217/cdc-fall-narratives/community-code/13/)
+Most promising mid-point submissions | RyoyaKatafuchi, artvolgin, and saket
 
 Additional solution details can be found in the `reports` folder inside the directory for each submission.
 
