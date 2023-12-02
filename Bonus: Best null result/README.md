@@ -1,10 +1,9 @@
 #  Readme
 
-First run `pip install -r requirements.txt` to install the required packages.
+Run `pip install -r requirements.txt` to install the required packages.
 
-Notebook `n_optuna_11c_t2hosp__part4.ipynb` uses a series of intermediate files.
+Note that notebook `n_optuna_11c_t2hosp__part4.ipynb` uses a series of intermediate files and assumes your data folder looks like the following:
 
-Your data folder should look like the following
 ```
 data
 ├── LEALLA
