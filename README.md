@@ -39,4 +39,4 @@ Most promising mid-point submissions | [RyoyaKatafuchi](https://github.com/drive
 
 Additional solution details can be found in the `reports` folder inside the directory for each submission.
 
-**Winners Blog Post**: ["Meet the Winners of <...>"](<link to winners blog post>)**
+**Winners Blog Post: ["Meet the Winners of the Unsupervised Wisdom Challenge"](https://drivendata.co/blog/unsupervised-wisdom-winners)**
