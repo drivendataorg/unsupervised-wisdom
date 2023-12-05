@@ -13,7 +13,7 @@ Falls among adults 65 and older are the leading cause of injury-related deaths. 
 
 ## What's in this Repository
 
-This repository contains code from winning competitors in the [Unsupervised Wisdom: Explore Medical Narratives on Older Adult Falls](https://www.drivendata.org/competitions/<https://www.drivendata.org/competitions/217/cdc-fall-narratives>) DrivenData challenge. Code for all winning solutions are open source under the MIT License.
+This repository contains code from winning competitors in the [Unsupervised Wisdom: Explore Medical Narratives on Older Adult Falls](https://www.drivendata.org/competitions/217/cdc-fall-narratives/) DrivenData challenge. Code for all winning solutions are open source under the MIT License.
 
 **Winning code for other DrivenData competitions is available in the [competition-winners repository](https://github.com/drivendataorg/competition-winners).**
 
